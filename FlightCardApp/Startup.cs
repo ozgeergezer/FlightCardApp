@@ -62,6 +62,7 @@ namespace FlightCardApp
 
             app.UseAuthorization();
 
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
